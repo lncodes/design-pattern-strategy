@@ -1,14 +1,15 @@
 using Xunit;
 
-namespace Lncodes.DesignPattern.Bridge.Test
+namespace Lncodes.DesignPattern.Strategy.Test
 {
-    public sealed class BridgeTest
+    public sealed class StrategyTest
     {
         [Theory]
-        [ClassData(typeof(BridgeTheoryData))]
+        [ClassData(typeof(StrategyTheoryData))]
         public void Companion_HearthPoint_ShouldEqual(Companion companion, uint expected)
         {
-            var playerController = new PlayerController(companion);
+            var playerController = new PlayerController();
+            playerController.SetCompanion(companion);
             playerController.GiveGiftCompanion();
             playerController.PetCompanion();
 

@@ -1,14 +1,14 @@
-﻿namespace Lncodes.DesignPattern.Bridge
+﻿namespace Lncodes.DesignPattern.Strategy
 {
     public sealed class PlayerController
     {
-        private readonly Companion _companion = default;
+        private Companion _companion = default;
 
         /// <summary>
         /// Constructor
         /// </summary>
         /// <param name="companion"></param>
-        public PlayerController(Companion companion) =>
+        public void SetCompanion(Companion companion) =>
             _companion = companion;
 
         /// <summary>

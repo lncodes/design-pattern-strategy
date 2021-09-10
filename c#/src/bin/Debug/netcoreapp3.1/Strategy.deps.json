@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Bridge/1.0.0": {
+      "Strategy/1.0.0": {
         "runtime": {
-          "Bridge.dll": {}
+          "Strategy.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Bridge/1.0.0": {
+    "Strategy/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

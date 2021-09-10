@@ -20,8 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Bridge">
-      <HintPath>..\src\bin\Debug\netcoreapp3.1\Bridge.dll</HintPath>
+    <Reference Include="Strategy">
+      <HintPath>..\src\bin\Debug\netcoreapp3.1\Strategy.dll</HintPath>
     </Reference>
   </ItemGroup>
 

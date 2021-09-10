@@ -1,4 +1,4 @@
-﻿namespace Lncodes.DesignPattern.Bridge
+﻿namespace Lncodes.DesignPattern.Strategy
 {
     public sealed class CrocodileCompanion : Companion
     {
